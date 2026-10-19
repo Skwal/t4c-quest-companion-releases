@@ -26,7 +26,7 @@ Dernière version : page [Releases](../../releases/latest).
   l'application ne voit rien.
 - L'overlay ne peut s'afficher par-dessus T4C que si le jeu tourne en mode fenêtré
   (ou fenêtré sans bordure), pas en plein écran exclusif.
-- **Windows : lancez l'application en administrateur.** Le jeu tourne en administrateur et
+- ⚠️ **Windows : lancez l'application en administrateur.** Le jeu tourne en administrateur et
   réagit aux clics même quand ils sont faits sur une autre fenêtre placée par-dessus lui : sans
   droits administrateur, un clic sur l'overlay fait aussi marcher votre personnage. Pour ne pas
   avoir à y penser : clic droit sur `t4c-quest-companion.exe` > Propriétés > Compatibilité >
