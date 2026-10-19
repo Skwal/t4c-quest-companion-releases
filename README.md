@@ -49,3 +49,11 @@ Sinon, le choisir dans les paramètres (icône d'engrenage).
 Ouvrir une [issue](../../issues) en joignant, si une quête n'est pas détectée, le fichier
 `non_reconnues_AAAA-MM-JJ.log` du jour. Il se trouve dans `%APPDATA%\T4C Quest Companion\logs`
 (Linux : `~/.local/share/T4C Quest Companion/logs`), accessible depuis les paramètres.
+
+## Crédits
+
+© 2026 Skwal. Application non officielle, sans lien avec Dialsoft ni avec le serveur Neerya.
+
+- Graphismes de l'interface et police : *The 4th Coming* © Dialsoft, empruntés au jeu.
+- Textes des solutions : [wiki Neerya](https://t4c-neerya.com/wiki).
+- Police Noto Sans : SIL Open Font License.
