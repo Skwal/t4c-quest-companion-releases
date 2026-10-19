@@ -6,6 +6,9 @@ par-dessus le jeu. Elle lit le journal de discussion du jeu en direct et détect
 cours, progression, objectif atteint, nombre de quêtes rendues dans la journée, et la solution
 du wiki.
 
+<img width="491" height="651" alt="image" src="https://github.com/user-attachments/assets/46f05ac8-0a28-4332-ba88-249c7223a0f2" />
+
+
 ## Télécharger
 
 Dernière version : page [Releases](../../releases/latest).
