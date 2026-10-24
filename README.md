@@ -44,6 +44,12 @@ Le dossier des logs du jeu est détecté automatiquement :
 
 Sinon, le choisir dans les paramètres (icône d'engrenage).
 
+## Documentation
+
+- [Guide](docs/guide.md) : les cartes, les statuts, le personnage suivi, les paramètres.
+- [Chronométrage](docs/chronometrage.md) : temps des quêtes et xp/h.
+- [FAQ](docs/faq.md) : problèmes courants.
+
 ## Signaler un problème
 
 Ouvrir une [issue](../../issues) en joignant, si une quête n'est pas détectée, le fichier
