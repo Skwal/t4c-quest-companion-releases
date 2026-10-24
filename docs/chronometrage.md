@@ -11,8 +11,7 @@ rapporte, pour voir lesquelles valent le coup. À activer dans les paramètres :
 - Le temps va du moment où le PNJ vous donne la quête à celui où vous la rendez.
 - **Seules les quêtes faites seules sont chronométrées** : si une mission et une tâche sont
   en cours en même temps, aucune des deux n'est mesurée (le temps de l'une compterait celui
-  de l'autre). La carte l'indique : « Non chronométrée : une mission et une tâche en même
-  temps ».
+  de l'autre). La carte n'affiche alors pas de chrono.
 - Une quête abandonnée n'est pas mesurée.
 - Fermer et relancer l'application pendant une quête ne fait pas perdre son temps.
 - Seules les quêtes faites avec le paramètre activé comptent : les anciens journaux ne sont pas
@@ -31,7 +30,8 @@ Chrono : 1:35
 - **Temps moyen** : la moyenne des fois où vous l'avez faite, tous personnages confondus.
   « Temps : pas encore mesuré » tant qu'elle ne l'a jamais été.
 - **xp/h** : l'expérience que la quête rapporte **à votre personnage, à son niveau actuel**,
-  divisée par le temps moyen.
+  divisée par le temps moyen. Elle s'affiche dès que l'application connaît le niveau du
+  personnage (une montée de niveau, ou une mission ou une tâche rendue).
   - En **vert** : parmi le tiers des quêtes les plus rapides de son type (mission ou tâche).
   - En **orange** : parmi le tiers des plus lentes.
   - Il faut au moins 3 quêtes du même type chronométrées pour les couleurs.
