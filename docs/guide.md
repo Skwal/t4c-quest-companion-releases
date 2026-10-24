@@ -35,7 +35,7 @@ Chaque carte montre la quête en cours :
 Les deux cartes sont suivies en même temps. Une carte peut être masquée dans les paramètres
 (la quête reste suivie).
 
-### « Objectif peut-être atteint »
+### Objectif peut-être atteint
 
 Beaucoup de quêtes finissent par le même message du jeu : « Vous avez trouvé ce que vous
 cherchiez. » Si la mission et la tâche en cours peuvent toutes les deux l'afficher,
