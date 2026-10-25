@@ -45,7 +45,10 @@ pas savoir laquelle vous avez finie. Voir [« Objectif peut-être atteint »](gu
 ### Le compteur du jour est faux
 
 Une quête abandonnée compte comme une quête rendue, comme pour le PNJ. Le compteur repart à
-zéro à 5 h UTC (7 h en été, 6 h en hiver, heure de Paris).
+zéro à 5 h UTC (7 h en été, 6 h en hiver, heure de Paris). Une quête prise la veille et rendue
+après la remise à zéro compte pour la veille, comme pour le PNJ. Les jours de bonus du serveur
+(une tâche de plus), le compteur dépasse le maximum (6 / 5) : l'application ne connaît pas les
+bonus.
 
 ### Je ferme l'application, je perds quelque chose ?
 

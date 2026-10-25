@@ -46,7 +46,12 @@ Sans réponse, le doute se lève tout seul : au second message (les deux sont fi
 vous rendez l'une des deux quêtes, ou quand vous en prenez une nouvelle.
 
 Le même message répété dans les 45 secondes (on continue de tuer après l'objectif) est
-ignoré.
+ignoré. Sauf si l'autre quête en cours peut finir par ce message et ne l'a pas encore fait
+(des tarentules près des fatalistes, par exemple) : sa carte passe en orange avec un bouton
+**« Oui, terminée »**. Sans réponse, elle reste en cours jusqu'à son propre message de fin ou
+jusqu'à ce que vous la rendiez.
+
+![Objectif peut-être atteint après un message répété](images/objectif-peut-etre-atteint-repetition.png)
 
 ### Une quête prise avant de lancer l'application
 

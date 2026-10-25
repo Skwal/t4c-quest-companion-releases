@@ -11,8 +11,16 @@ rapporte, pour voir lesquelles valent le coup. À activer dans les paramètres :
 - Le temps va du moment où le PNJ vous donne la quête à celui où vous la rendez.
 - **Seules les quêtes faites seules sont chronométrées** : si une mission et une tâche sont
   en cours en même temps, aucune des deux n'est mesurée (le temps de l'une compterait celui
-  de l'autre). La carte n'affiche alors pas de chrono.
-- Une quête abandonnée n'est pas mesurée.
+  de l'autre). Les cartes n'affichent alors pas de chrono, et un message sous les cartes le
+  rappelle.
+- **Pour ne chronométrer que les missions (ou que les tâches)**, masquez l'autre type dans les
+  paramètres (« Afficher les tâches » / « Afficher les missions ») : une quête prise pendant
+  que l'autre type est masqué est chronométrée, même si une quête de l'autre type est en
+  cours. Si vous réaffichez l'autre type alors qu'une quête de chaque type est en cours, le
+  chrono s'arrête.
+- Une quête abandonnée n'est pas mesurée, ni une quête rendue plus d'une heure après l'avoir
+  prise (absence, quête terminée la veille et rendue le lendemain) : le chrono disparaît
+  au bout d'une heure.
 - Fermer et relancer l'application pendant une quête ne fait pas perdre son temps.
 - Seules les quêtes faites avec le paramètre activé comptent : les anciens journaux ne sont pas
   importés.
@@ -49,11 +57,12 @@ Les temps sont dans `temps_quetes.log`, dans le dossier des logs de l'applicatio
 
 ```
 == L'orbe de tromperie (mission) ==
-2026-10-22 13:35:48 | Bearh Naise | 2:39 | 780000 xp
-2026-10-23 12:06:30 | Bearh Naise | 2:38 | 800000 xp
+2026-10-22 13:35:48 | Bearh Naise | 2:39 | 780000 xp | niv. 78
+2026-10-23 12:06:30 | Bearh Naise | 2:38 | 800000 xp | niv. 80
 ```
 
-Chaque ligne : début, personnage, durée, expérience gagnée. Pour retirer un temps faussé
+Chaque ligne : début, personnage, durée, expérience gagnée et niveau du personnage (absent
+quand l'application ne le connaît pas encore). Pour retirer un temps faussé
 (absence, déconnexion…), **supprimez sa ligne** et enregistrez le fichier, même avec
 l'application ouverte. La carte en tient compte au prochain temps enregistré ou au prochain
 lancement.
