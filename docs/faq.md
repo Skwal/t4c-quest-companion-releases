@@ -61,5 +61,6 @@ Supprimez sa ligne dans `temps_quetes.log` : voir [Chronométrage](chronometrage
 
 ### L'application envoie quelque chose ?
 
-Non. Elle lit seulement les journaux que le jeu écrit sur votre ordinateur et ne se connecte
-à rien.
+Non. Elle lit seulement les journaux que le jeu écrit sur votre ordinateur. Au lancement, elle
+demande seulement à GitHub le numéro de la dernière version publiée, sans rien envoyer
+d'autre.

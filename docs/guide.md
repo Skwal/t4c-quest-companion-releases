@@ -13,6 +13,8 @@ est activée) : elle ne touche pas au jeu et ne lui envoie rien.
 - Sous la barre de titre, le **personnage** suivi, ou la liste des personnages pour en
   choisir un.
 - En dessous, une **carte pour la mission** et une **carte pour la tâche**.
+- Quand une nouvelle version est publiée, un lien « Nouvelle version … disponible » en bas
+  de la fenêtre ouvre sa page de téléchargement.
 
 ## Les cartes
 

@@ -11,7 +11,8 @@ du wiki.
 
 ## Télécharger
 
-Dernière version : page [Releases](../../releases/latest).
+Dernière version : page [Releases](../../releases/latest). L'application signale elle-même
+les nouvelles versions.
 
 - **Windows** : `t4c-quest-companion-vX.Y.Z-windows.zip`, décompresser et lancer
   `t4c-quest-companion.exe`. Windows SmartScreen peut avertir que l'application n'est pas
