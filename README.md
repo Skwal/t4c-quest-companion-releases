@@ -25,14 +25,12 @@ L'application n'automatise rien :
 
 Toute demande allant à l'encontre de la charte sera refusée.
 
-## Télécharger
+## Installer
 
-Dernière version : page [Releases](../../releases/latest). L'application signale elle-même
-les nouvelles versions.
-
-Télécharger `t4c-quest-companion-vX.Y.Z-windows.zip`, le décompresser et lancer
-`t4c-quest-companion.exe`. Windows SmartScreen peut avertir que l'application n'est pas
-signée : « Informations complémentaires » > « Exécuter quand même ».
+Décompresser `t4c-quest-companion-vX.Y.Z-windows.zip` et lancer `t4c-quest-companion.exe`.
+Windows SmartScreen peut avertir que l'application n'est pas signée : « Informations
+complémentaires » > « Exécuter quand même ». L'application signale elle-même les nouvelles
+versions.
 
 ## Avant de jouer
 
@@ -68,8 +66,8 @@ accessible depuis les paramètres.
 
 ## Linux / SteamOS
 
-Le jeu tourne sous Wine (Bottles, Proton…) : télécharger
-`t4c-quest-companion-vX.Y.Z-linux.zip`, le décompresser et lancer `t4c-quest-companion.x86_64`.
+Le jeu tourne sous Wine (Bottles, Proton…) : décompresser
+`t4c-quest-companion-vX.Y.Z-linux.zip` et lancer `t4c-quest-companion.x86_64`.
 Sur Steam Deck, en mode Bureau seulement : le mode Jeu ne permet pas d'afficher une fenêtre
 par-dessus le jeu. Pas besoin de droits administrateur.
 
