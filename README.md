@@ -1,5 +1,7 @@
 # T4C Quest Companion
 
+### ⬇️ [Télécharger la dernière version](../../releases/latest)
+
 Petite application compagnon pour **The 4th Coming** (serveur Neerya), affichée en overlay
 par-dessus le jeu. Elle lit le journal de discussion du jeu en direct et détecte toute seule les
 **missions** (Auxiliaire de mission) et **tâches** (Préposé aux tâches) journalières : quête en
@@ -8,17 +10,29 @@ du wiki.
 
 <img width="491" height="651" alt="image" src="https://github.com/user-attachments/assets/46f05ac8-0a28-4332-ba88-249c7223a0f2" />
 
+## Et la charte de Neerya ?
+
+La [charte de Neerya](https://www.t4c-neerya.com/conditions-utilisation/) interdit toute
+automatisation (section II.1) : programmes, scripts ou macros qui jouent à la place du joueur.
+L'application n'automatise rien :
+
+- elle **lit seulement** les journaux texte que le jeu écrit lui-même sur votre ordinateur
+  (journalisation activée dans les options du jeu) ;
+- elle n'envoie **aucune touche ni aucun clic** au jeu, ne lit pas sa mémoire, ne modifie aucun
+  de ses fichiers et ne communique pas avec le serveur ;
+- elle **affiche** des informations, comme un wiki ouvert à côté : c'est vous qui jouez chaque
+  action.
+
+Toute demande allant à l'encontre de la charte sera refusée.
 
 ## Télécharger
 
 Dernière version : page [Releases](../../releases/latest). L'application signale elle-même
 les nouvelles versions.
 
-- **Windows** : `t4c-quest-companion-vX.Y.Z-windows.zip`, décompresser et lancer
-  `t4c-quest-companion.exe`. Windows SmartScreen peut avertir que l'application n'est pas
-  signée : « Informations complémentaires » > « Exécuter quand même ».
-- **Linux / SteamOS (mode Bureau)** : `t4c-quest-companion-vX.Y.Z-linux.zip`, décompresser et
-  lancer `t4c-quest-companion.x86_64`.
+Télécharger `t4c-quest-companion-vX.Y.Z-windows.zip`, le décompresser et lancer
+`t4c-quest-companion.exe`. Windows SmartScreen peut avertir que l'application n'est pas
+signée : « Informations complémentaires » > « Exécuter quand même ».
 
 ## Avant de jouer
 
@@ -27,7 +41,7 @@ les nouvelles versions.
   l'application ne voit rien.
 - L'overlay ne peut s'afficher par-dessus T4C que si le jeu tourne en mode fenêtré
   (ou fenêtré sans bordure), pas en plein écran exclusif.
-- ⚠️ **Windows : lancez l'application en administrateur.** Le jeu tourne en administrateur et
+- ⚠️ **Lancez l'application en administrateur.** Le jeu tourne en administrateur et
   réagit aux clics même quand ils sont faits sur une autre fenêtre placée par-dessus lui : sans
   droits administrateur, un clic sur l'overlay fait aussi marcher votre personnage. Pour ne pas
   avoir à y penser : clic droit sur `t4c-quest-companion.exe` > Propriétés > Compatibilité >
@@ -37,12 +51,7 @@ les nouvelles versions.
   sur un bouton (paramètres, fermer, liste des personnages…) et le rend au jeu dès que le
   curseur s'en va : vos clics sur ces boutons n'atteignent plus le jeu.
 
-Le dossier des logs du jeu est détecté automatiquement :
-
-- Windows : `%LOCALAPPDATA%\Dialsoft\Logs`
-- Linux (Bottles, Proton, Wine) : `…/drive_c/users/<utilisateur>/AppData/Local/Dialsoft/Logs`
-  dans le préfixe Wine
-
+Le dossier des logs du jeu (`%LOCALAPPDATA%\Dialsoft\Logs`) est détecté automatiquement.
 Sinon, le choisir dans les paramètres (icône d'engrenage).
 
 ## Documentation
@@ -54,8 +63,19 @@ Sinon, le choisir dans les paramètres (icône d'engrenage).
 ## Signaler un problème
 
 Ouvrir une [issue](../../issues) en joignant, si une quête n'est pas détectée, le fichier
-`non_reconnues_AAAA-MM-JJ.log` du jour. Il se trouve dans `%APPDATA%\T4C Quest Companion\logs`
-(Linux : `~/.local/share/T4C Quest Companion/logs`), accessible depuis les paramètres.
+`non_reconnues_AAAA-MM-JJ.log` du jour. Il se trouve dans `%APPDATA%\T4C Quest Companion\logs`,
+accessible depuis les paramètres.
+
+## Linux / SteamOS
+
+Le jeu tourne sous Wine (Bottles, Proton…) : télécharger
+`t4c-quest-companion-vX.Y.Z-linux.zip`, le décompresser et lancer `t4c-quest-companion.x86_64`.
+Sur Steam Deck, en mode Bureau seulement : le mode Jeu ne permet pas d'afficher une fenêtre
+par-dessus le jeu. Pas besoin de droits administrateur.
+
+Le dossier des logs est cherché dans le préfixe Wine
+(`…/drive_c/users/<utilisateur>/AppData/Local/Dialsoft/Logs`). Les logs de l'application sont
+dans `~/.local/share/T4C Quest Companion/logs`.
 
 ## Crédits
 
