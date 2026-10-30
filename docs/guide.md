@@ -22,7 +22,7 @@ Chaque carte montre la quête en cours :
 
 - **Aujourd'hui : n / 8** (missions) ou **n / 5** (tâches) : les quêtes rendues ou abandonnées
   depuis la remise à zéro du jour (5 h UTC : 7 h en été, 6 h en hiver, heure de Paris).
-- Le **nom** de la quête, sa **région** et son **prérequis**.
+- Le **nom** de la quête et sa **région**.
 - Le **statut** :
   - « En cours » ;
   - « Objectif atteint : retournez voir… », en vert, quand le jeu a affiché le message de
