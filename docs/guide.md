@@ -66,8 +66,11 @@ rappelle (parlez-lui) : « En cours (retrouvée grâce à un rappel du PNJ) ».
 - **Un seul client du jeu ouvert** : l'application suit le personnage qui joue. Si vous
   changez de personnage, elle le suit.
 - **Plusieurs clients ouverts** : tous les journaux bougent (discussions, joueurs proches),
-  donc l'application ne change pas de personnage toute seule : choisissez-le dans la liste.
-- La liste montre les personnages actifs dans la dernière heure.
+  donc l'application ne change pas de personnage toute seule, sauf quand un personnage parle
+  à l'Auxiliaire de mission ou au Préposé aux tâches : elle passe à celui-là. Sinon,
+  choisissez-le dans la liste.
+- La liste montre tous les personnages joués depuis la remise à zéro du jour, même quand
+  l'application n'était pas lancée : vérifiez les quêtes de chacun.
 - Jeu fermé : rien n'est affiché.
 
 ## Les paramètres
